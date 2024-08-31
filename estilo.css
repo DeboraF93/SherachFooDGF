@@ -1,0 +1,742 @@
+#errores {
+    display: flex;
+    margin-left: -1%;
+    margin-top: 3%;
+    color: rgb(192, 26, 26);
+    font-size: medium;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#carga {
+    margin-left: 45%;
+
+}
+
+
+/*LOGIN*/
+
+/*................MOVIL DISENO................*/
+@media (max-width: 768px) {
+
+    #contenido {
+        margin-left: -10%;
+        margin-top: 60%;
+        font-family: sans-serif;
+    }
+
+    .nombreApp {
+        font-size: xx-large;
+        margin-left: 10px;
+        font-family: system-ui;
+    }
+
+    #inicioLogin {
+        display: flex;
+        flex-direction: column;
+        margin-left: 33%;
+        margin-top: -55%;
+    }
+
+    #inicioPass {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #usuario {
+        width: 61%;
+    }
+
+    #password {
+        margin-top: 7%;
+        width: 61%;
+    }
+
+    #cbox1 {
+        width: 10%;
+        margin-left: 12%;
+    }
+
+    #titulo1 {
+        margin-left: -15%;
+        color: rgb(173, 117, 13);
+        font-size: xxx-large;
+    }
+
+    #inicioLogin input {
+        background-color: #d6bea3;
+        border-color: #d6bea375;
+        padding: 2%;
+        outline: none;
+    }
+
+    /*Botones*/
+    #btnEnviar {
+        width: 30%;
+        margin-left: 17%;
+        margin-top: 10%;
+        background-color: rgb(173, 117, 13);
+        border: none;
+        padding: 2%;
+    }
+
+    #btnEnviar:active {
+        background-color: rgb(45, 30, 2);
+        border: none;
+        color: #d6bea3;
+    }
+
+    #btnVer {
+        margin-left: -12%;
+        height: 23px;
+        width: 11%;
+        background-color: rgb(214 190 163 / 0%);
+        border: none;
+        cursor: pointer;
+    }
+
+    #crear {
+        margin-left: 14%;
+        margin-top: 7%;
+        color: rgb(99, 67, 7);
+        cursor: pointer;
+    }
+
+    #crear:hover {
+        color: #181207;
+    }
+
+    #recuperar {
+        margin-left: 3%;
+        margin-top: 5%;
+        color: rgb(99, 67, 7);
+        cursor: pointer;
+    }
+
+    #recuperar:read-write {
+        color: #181207;
+    }
+
+    /*OJO*/
+    .icon_eye {
+        margin-left: -10%;
+        margin-top: -3px;
+        color: #0000008f;
+        cursor: pointer;
+    }
+
+}
+
+
+/*...................MOVIL ORDENADOR................*/
+@media only screen and (min-width: 769px) {
+
+
+    #inicioLogin {
+        display: flex;
+        margin-left: 45%;
+        margin-top: -50%;
+        flex-direction: column;
+        width: 55%;
+    }
+
+    #password {
+        margin-top: 3%;
+    }
+
+
+    #titulo1 {
+        margin-left: 2%;
+        color: rgb(173, 117, 13);
+        font-size: 300%;
+    }
+
+    #inicioLogin input {
+        width: 30%;
+        padding: 1%;
+        ;
+        background-color: #d6bea3;
+        border: none;
+    }
+
+    /*Botones*/
+    #btnEnviar {
+        width: 13%;
+        margin-left: 10%;
+        background-color: rgb(173, 117, 13);
+        border: none;
+        padding: 1%;
+        border-radius: 5em;
+        font-size: 100%;
+    }
+
+    #btnEnviar:active {
+        background-color: rgb(45, 30, 2);
+        border: none;
+        color: #d6bea3;
+    }
+
+    #btnVer {
+        margin-top: -3.2%;
+        margin-left: 28%;
+        border: none;
+        display: grid;
+
+    }
+
+    #crear {
+        margin-left: 11.4%;
+        margin-top: 2%;
+        color: rgb(99, 67, 7);
+    }
+
+    label {
+        display: ruby;
+        margin-left: 33%;
+        margin-top: -3.2%;
+    }
+
+    #crear:active {
+        color: rgb(45, 30, 2);
+    }
+
+    .cocinando {
+        margin-left: 45.5%;
+        margin-top: 6%;
+    }
+
+}
+
+/*--------------------------------------------------------------------------------------------------------*/
+/*INSCRIBIRSE*/
+
+/*.....................MOVIL DISENO......................*/
+@media (max-width: 768px) {
+
+    #pantallaInscribirse {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 10%;
+        margin-top: -60%;
+    }
+
+    #titulo2 {
+        margin-left: -1%;
+        color: rgb(173, 117, 13);
+        font-size: xx-large;
+        padding: 2%;
+    }
+
+    #usuario1 {
+        width: 60%;
+        background-color: #d6bea3;
+        border: none;
+        padding: 2%;
+        outline: none;
+    }
+
+    #password1 {
+        margin-left: -20%;
+        width: 132%;
+        margin-top: 8%;
+        background-color: #d6bea3;
+        border: none;
+        padding: 4%;
+        outline: none;
+    }
+
+    #email {
+        width: 60%;
+        margin-top: 4%;
+        background-color: #d6bea3;
+        border: none;
+        padding: 2%;
+        outline: none;
+
+    }
+
+    /*Botones*/
+    #btnInscribirme {
+        width: 30%;
+        margin-left: 2%;
+        margin-top: 10%;
+        background-color: rgb(173, 117, 13);
+        border: none;
+        padding: 2%;
+    }
+
+    #btnInscribirme:hover {
+        background-color: rgb(45, 30, 2);
+        border: none;
+        color: #d6bea3;
+    }
+
+    #volverLogin {
+        margin-left: 2%;
+        margin-top: 7%;
+        color: rgb(99, 67, 7);
+    }
+
+    #volverLogin:hover {
+        color: rgb(13, 9, 1);
+    }
+
+}
+
+/*................MOVIL ORDENADOR.................*/
+@media only screen and (min-width: 769px) {
+
+    #contenido {
+        margin-left: -10%;
+        margin-top: 55%;
+    }
+
+    #pantallaInscribirse {
+        display: flex;
+        flex-direction: column;
+        margin-left: 45%;
+        margin-top: -50%;
+        width: 55%;
+    }
+
+    #titulo2 {
+        margin-left: 6%;
+        margin-top: 3%;
+        color: rgb(173, 117, 13);
+        font-size: 300%;
+    }
+
+    #usuario1 {
+        width: 30%;
+        padding: 1%;
+        background-color: #d6bea3;
+        border: none;
+    }
+
+    #password1 {
+        margin-left: 0%;
+        width: 30%;
+        padding: 1%;
+        margin-top: 3%;
+        background-color: #d6bea3;
+        border: none;
+    }
+
+    #email {
+        width: 30%;
+        padding: 1%;
+        margin-top: 3%;
+        background-color: #d6bea3;
+        border: none;
+
+    }
+
+
+    .cocinando{
+        margin-left: 45.5%;
+        margin-top: 6%;
+    
+    }
+    /*Botones*/
+    #btnInscribirme {
+        border-radius: 5em;
+        font-size: 100%;
+        padding: 1%;
+        width: 13%;
+        margin-left: 9%;
+        margin-top: 5%;
+        background-color: rgb(173, 117, 13);
+        border: none;
+    }
+
+    #btnInscribirme:active {
+        color: rgb(45, 30, 2);
+    }
+
+    #volverLogin {
+        font-size: 100%;
+        margin-left: 9.5%;
+        margin-top: 2%;
+        color: rgb(99, 67, 7);
+    }
+
+    #volverLogin:active {
+        color: rgb(45, 30, 2);
+    }
+}
+
+/*----------------------------------------------------------------------------*/
+
+/*ENTRADA A BUSQUEDA*/
+
+/*......................MOVIL DISENO.........................*/
+@media (max-width: 768px) {
+
+
+    #carga {
+        margin-top: 8%;
+        margin-left: 45%;
+        margin-top: 2%;
+    }
+
+    .nombreApp {
+        font-size: xx-large;
+        margin-left: 2%;
+        font-family: system-ui;
+    }
+
+    #inputBuscador {
+        padding: 5%;
+        background-color: #ca8d1e;
+        margin-left: 7%;
+        width: 85%;
+        margin-top: -55%;
+    }
+
+    #buscador {
+        margin-left: 6%;
+        background-color: #e8f0fe;
+        border: none;
+        outline: none;
+    }
+
+    #busEspecifico {
+        display: inline-flex;
+        margin-left: 37px;
+        margin-top: 5px;
+        width: 85%;
+        padding: 10px;
+        background-color: beige;
+        box-shadow: 2px 2px #0000001a;
+        justify-content: space-between;
+    }
+
+    #busEspecificoAli {
+        display: inline-flex;
+        margin-left: 37px;
+        margin-top: 5px;
+        width: 85%;
+        padding: 10px;
+        background-color: beige;
+        box-shadow: 2px 2px #0000001a;
+        justify-content: space-between;
+    }
+
+    #divInInput {
+        display: flex;
+        background-color: #e8f0fe;
+        width: 75%;
+        margin-left: 12%;
+        border-radius: 2em;
+        margin-top: -10%;
+    }
+
+    #dinNombre {
+        background: beige;
+        padding: 5px;
+        width: 363px;
+        margin-top: -8px;
+        height: 40px;
+        margin-left: -7px;
+    }
+
+    .imagenesBusqueda {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .img_buscar {
+        margin-left: 25%;
+        margin-top: 35%;
+
+    }
+
+    .cocinando1 {
+        margin-left: 15%;
+    }
+
+    .cocinando {
+        margin-left: 33%;
+        margin-top: 25%;
+    }
+
+    .cocinandome {
+        margin-left: 30px;
+    }
+
+    .img_supermarket {
+        margin-left: 30px;
+    }
+
+    .tituloDetalles {
+        margin-left: 5px;
+        font-size: larger;
+        color: rgb(173, 117, 13);
+    }
+
+    .tituloDetallesAli {
+        margin-left: 5px;
+        font-size: larger;
+        color: rgb(173, 117, 13);
+    }
+
+    #detallesProducto {
+        margin-left: -10%;
+        color: #000000;
+    }
+
+    #detallesReceta {
+        margin-left: -35px;
+    }
+
+    #resultadosBusqueda {
+        margin-top: 5%;
+        margin-left: 50px
+    }
+
+    .info {
+        color: rgb(173, 117, 13);
+    }
+
+    .imagenesMeals {
+        max-width: 100px;
+        max-height: 100px;
+    }
+
+    .color {
+        margin-top: -155px;
+        margin-left: 160px;
+    }
+
+    #favoritos {
+        margin-top: 0px;
+        margin-left: 50px;
+    }
+
+    /*Botones*/
+
+    #volver {
+        margin-left: 40px;
+        border: none;
+        border-radius: 2px;
+        height: 30px;
+        width: 65px;
+        background-color: rgb(173, 117, 13);
+    }
+
+    #volver:active {
+        background-color: khaki;
+        color: #4a4747
+    }
+
+    #btnBack {
+        background-color: #ca8d1e;
+        border: none;
+        margin-left: 1%;
+        margin-top: 5%;
+    }
+
+
+    #btnBuscar {
+        background-color: #e8f0fe;
+        border: none;
+        margin-left: 7%;
+        width: 12%;
+    }
+
+    #btnLogout {
+        margin-left: 10%;
+        background-color: #ca8d1e;
+        border: none;
+    }
+
+
+    #btnAlimentos {
+        font-family: sans-serif;
+        margin-left: -55%;
+        margin-top: -10%;
+        height: 20px;
+        background-color: #ca8d1e;
+        border: none;
+    }
+
+    #btnAlimentos:active {
+        background-color: rgb(73 58 32);
+        color: white;
+        border-radius: 5px;
+    }
+
+    #btnRecepi {
+        margin-top: -10%;
+        margin-left: -65%;
+        height: 20px;
+        background-color: #ca8d1e;
+        border: none;
+    }
+
+    #btnRecepi:active {
+        background-color: rgb(73 58 32);
+        color: white;
+        border-radius: 5px;
+    }
+
+    .imagene-contenedor1 {
+        width: 20px;
+        height: -20px;
+    }
+
+    #btnPollo {
+        background-color: beige;
+        border: none;
+    }
+
+    #btnCerdo {
+        background-color: beige;
+        border: none;
+    }
+
+    #btnTernera {
+        background-color: beige;
+        border: none;
+    }
+
+    #btnSalmon {
+        background-color: beige;
+        border: none;
+    }
+
+    #btnRefrescar {
+        margin-left: -10px;
+        height: 35px;
+        background-color: #ca8d1e;
+        border: 0;
+        margin-top: 20px;
+    }
+
+
+    /*Simbolo flecha*/
+    .icon_back {
+        margin-top: 20%;
+        margin-left: -70%;
+    }
+
+    /*Simbolo Lupa*/
+    .icon_search {
+        margin-top: 12%;
+        margin-left: -37%;
+    }
+
+    .icon_add {
+        margin-top: 3px;
+        height: 35px;
+    }
+
+    .icon_refresh {
+        margin-top: 3px;
+    }
+
+}
+
+/*................MOVIL ORDENADOR.................*/
+@media only screen and (min-width: 769px) {
+
+    .tituloP {
+        font-family: initial;
+        font-size: xx-large;
+        margin-left: 1%;
+        margin-top: 1.7%;
+        color: #000000b8;
+    }
+
+    #inputBuscador {
+        padding: 2%;
+        display: flex;
+        background-color: #ca8d1e;
+        flex-direction: row;
+        margin-left: -1%;
+        width: 98%;
+        margin-top: -55%;
+        justify-content: flex-start;
+    }
+
+    #buscador {
+        margin-left: 2%;
+        width: 84%;
+        background-color: rgb(245 245 220);
+        border: none;
+    }
+
+    #divInInput {
+        display: flex;
+        margin-left: 8%;
+        width: 35%;
+        margin-top: 2%;
+        height: 32px;
+        background-color: beige;
+        border-radius: 1em;
+    }
+
+    img {
+        margin-left: 6%;
+    }
+
+    .imagenesBusqueda {
+        width: 12%;
+        margin-top: 6%;
+        margin-left: 62%;
+    }
+
+    .info {
+        width: 12%;
+        margin-left: 1%;
+        color: #ca8d1e;
+    }
+
+    .tituloDetalles {
+        color: black;
+        margin-left: 3%;
+        margin-top: 5%;
+    }
+
+    #detallesProducto {
+        margin-top: 4%;
+        color: #ca8d1e;
+        font-size: large;
+    }
+
+    /*Botones*/
+    #btnBuscar {
+        margin-left: 2%;
+        width: 8%;
+        height: 82%;
+        background: rgb(245 245 220);
+        border: none;
+        margin-top: 0.5%;
+    }
+
+    #btnBack {
+        background-color: #ca8d1e;
+        border: none;
+        margin-top: 0.6%;
+        margin-left: 4%;
+    }
+
+    #btnFavoritos {
+        margin-top: -20px;
+    }
+
+    ¡#btnRecepi {
+        margin-top: -10%;
+        margin-left: -65%;
+        height: 20px;
+        background-color: #ca8d1e;
+        border: none;
+    }
+
+    .icon_back {
+        margin-top: 78%;
+    }
+
+}
